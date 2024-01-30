@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const HeroSection = () => {
   return (
-    <section className="lg:py-16">
+    <section className="lg:py-16 h-[100vh]">
       <div className="grid grid-cols-1 sm:grid-cols-12 pt-16 pl-6">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
@@ -24,7 +24,7 @@ const HeroSection = () => {
               sequence={[
                 "Muzammal",
                 1000,
-                "Next Js Developer",
+                "React Js Developer",
                 1000,
                 "Next js Developer",
                 1000,

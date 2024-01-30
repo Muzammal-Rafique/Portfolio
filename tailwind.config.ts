@@ -16,6 +16,6 @@ const config: Config = {
       secondary: colors.pink,
     },
   },
-  plugins: [],
+  // plugins: [require("daisyui")],
 };
 export default config;

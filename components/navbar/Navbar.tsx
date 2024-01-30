@@ -5,30 +5,9 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import NavLink from "./NavLink";
 import MobileNav from "./MobileNav";
 import Image from "next/image";
+import { navLinks } from "@/constants/navLinks";
 
-export interface navLink {
-  title: string;
-  path: string;
-}
 
-const navLinks: navLink[] = [
-  {
-    title: "About",
-    path: "#about",
-  },
-  {
-    title: "Skills",
-    path: "#skills",
-  },
-  {
-    title: "Projects",
-    path: "#projects",
-  },
-  {
-    title: "Contact",
-    path: "#contact",
-  },
-];
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
