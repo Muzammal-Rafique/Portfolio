@@ -1,6 +1,7 @@
 import React from "react";
 import NavLink from "./NavLink";
-import { navLink } from "./Navbar";
+import { navLink } from "@/constants/navLinks";
+
 
 interface props {
   links: navLink[];
