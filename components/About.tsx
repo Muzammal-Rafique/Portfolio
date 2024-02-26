@@ -59,10 +59,10 @@ const TabsComponent = () => {
         {/* Left Side - Image */}
         <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
           <Image
-            src="/About.png"
+            src="/about.png"
             alt="Left Side Image"
             width={500}
-            height={500}
+            height={400}
             className="w-full h-auto rounded-lg shadow-lg"
           />
         </div>

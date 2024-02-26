@@ -24,9 +24,9 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({
       <Image
         src={imageSrc}
         alt={title}
-        width={500}
-        height={500}
-        className="object-cover object-center"
+        width={400}
+        height={300}
+        className="w-[500px] h-[250px]"
       />
       <div className="p-4">
         <h2 className="text-xl font-semibold mb-2">{title}</h2>
