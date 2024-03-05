@@ -8,7 +8,7 @@ interface CardProps {
 
 const Card = ({ image, title }: CardProps) => {
   return (
-    <div className="bg-gradient-to-r from-primary-300 to-secondary-300 shadow-md rounded-md overflow-hidden">
+    <div className="bg-gradient-to-r from-purple-500 to-pink-200 shadow-md rounded-md overflow-hidden">
       <Image
         src={image}
         alt="logo"

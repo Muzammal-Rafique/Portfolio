@@ -20,7 +20,7 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({
   link2,
 }) => {
   return (
-    <div className="max-w-md mx-auto bg-gradient-to-r from-primary-300 to-secondary-300 shadow-md rounded-md overflow-hidden">
+    <div className="max-w-md mx-auto bg-gradient-to-r from-purple-500 to-pink-200 shadow-md rounded-md overflow-hidden">
       <Image
         src={imageSrc}
         alt={title}
@@ -46,7 +46,7 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({
             href={link1}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-500 hover:underline"
+            className="text-blue-300 hover:underline"
           >
             View Project
           </a>
@@ -54,7 +54,7 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({
             href={link2}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-500 hover:underline"
+            className="text-blue-300 hover:underline"
           >
             GitHub
           </a>

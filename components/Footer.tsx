@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="footer border z-10 border-t-[#33353F] border-l-transparent border-r-transparent text-white">
       <div className="container p-12 flex justify-between">
-        <Image src="/logo-dark.png" alt="logo" width={150} height={140} />
+        <Image src="/logo.png" alt="logo" width={150} height={140} />
         <ul className="flex gap-10">
         {navLinks.map((link, index) => (
               <li key={index}>
