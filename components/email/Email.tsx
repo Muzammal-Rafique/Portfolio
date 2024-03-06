@@ -75,7 +75,7 @@ const EmailSection = () => {
                 alt="Github Icon"
                 width={50}
                 height={50}
-                className="bg-black rounded-lg"
+                className="bg-primary-500 rounded-lg"
               />
             </Link>
             <Link href="www.linkedin.com/in/muzammalrafique26" target="_blank">
@@ -84,7 +84,7 @@ const EmailSection = () => {
                 alt="Linkedin Icon"
                 width={50}
                 height={50}
-                className="bg-black rounded-lg "
+                className="bg-primary-500 rounded-lg "
               />
             </Link>
             <Link href="https://wa.me/03055164591" target="_blank">
@@ -93,7 +93,7 @@ const EmailSection = () => {
                 alt="Linkedin Icon"
                 width={50}
                 height={50}
-                className="bg-black rounded-lg"
+                className="bg-primary-500 rounded-lg"
               />
             </Link>
           </div>
